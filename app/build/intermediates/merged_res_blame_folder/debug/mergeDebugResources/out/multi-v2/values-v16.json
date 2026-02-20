@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.urmilabs.shield.app-mergeDebugResources-2:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/jules/.gradle/caches/8.8/transforms/d762abd263147ae5e21254ca39d37264/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
