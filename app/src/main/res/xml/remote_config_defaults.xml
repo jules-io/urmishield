@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>text_analysis_debounce_ms</key>
+        <value>350</value>
+    </entry>
+    <entry>
+        <key>emergency_bypass_timeout_ms</key>
+        <value>60000</value>
+    </entry>
+    <entry>
+        <key>pattern_update_interval_hours</key>
+        <value>24</value>
+    </entry>
+    <entry>
+        <key>scam_patterns_url</key>
+        <value>https://raw.githubusercontent.com/UrmiLabs/UrmiShield/main/patterns/scam_patterns.json</value>
+    </entry>
+    <entry>
+        <key>supported_dialer_packages</key>
+        <value>com.google.android.dialer,com.samsung.android.incallui</value>
+    </entry>
+</defaultsMap>

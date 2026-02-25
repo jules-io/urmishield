@@ -1,0 +1,4 @@
+<resources>
+    <string name="desc_live_transcription_warning">Live transcription. Warning: suspicious keyword detected: %1$s</string>
+    <string name="desc_live_transcription">Live call transcription</string>
+</resources>

@@ -1,0 +1,166 @@
+# ============================================================================
+# ULTIMATE .gitignore — Android / Kotlin / Gradle / macOS
+# ============================================================================
+
+# ─── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+*.swp
+*.swo
+Icon?
+
+# Thumbnails
+ehthumbs.db
+Thumbs.db
+
+# ─── Android / Gradle Build Outputs ────────────────────────────────────────
+build/
+.build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.aar
+
+# Generated sources
+gen/
+out/
+output/
+
+# ─── Gradle ─────────────────────────────────────────────────────────────────
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Gradle daemon, wrapper, caches
+.gradle-cache/
+gradle/caches/
+
+# ─── IDE — Android Studio / IntelliJ IDEA ──────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# ─── IDE — VS Code ─────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── IDE — Eclipse ──────────────────────────────────────────────────────────
+.classpath
+.project
+.settings/
+bin/
+
+# ─── Kotlin ─────────────────────────────────────────────────────────────────
+*.kotlin_module
+
+# KSP (Kotlin Symbol Processing)
+kspCaches/
+
+# ─── Java ───────────────────────────────────────────────────────────────────
+*.hprof
+hs_err_pid*
+replay_pid*
+*.log
+
+# ─── Local Configuration (secrets, machine-specific) ───────────────────────
+local.properties
+*.jks
+*.keystore
+!debug.keystore
+signing.properties
+keystore.properties
+google-services.json
+
+# ─── Testing ────────────────────────────────────────────────────────────────
+.test-results/
+test-output/
+jacoco.exec
+coverage/
+*.exec
+*.ec
+
+# ─── Lint ───────────────────────────────────────────────────────────────────
+lint/
+lint-results*
+lint-baseline.xml
+
+# ─── Proguard / R8 ─────────────────────────────────────────────────────────
+proguard/
+mapping/
+seeds.txt
+usage.txt
+
+# ─── CMake / NDK / Native ──────────────────────────────────────────────────
+.cxx/
+.externalNativeBuild/
+obj/
+*.so
+*.o
+*.a
+
+# ─── Crashlytics / Firebase ────────────────────────────────────────────────
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# ─── Dependency Management ─────────────────────────────────────────────────
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ─── Archives & Binaries ───────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.dmg
+*.iso
+
+# ─── Node (if using React Native bridge or tooling) ────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.yarn/
+package-lock.json
+yarn.lock
+
+# ─── Environment & Secrets ─────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.p12
+*.key
+
+# ─── Misc Bloat ─────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*.patch
+*~
+\#*\#
+window_dump.xml

@@ -1,0 +1,47 @@
+build:
+  maxIssues: 0
+
+complexity:
+  LongMethod:
+    threshold: 60
+  LongParameterList:
+    functionThreshold: 8
+    constructorThreshold: 10
+  ComplexMethod:
+    threshold: 15
+  TooManyFunctions:
+    thresholdInFiles: 25
+    thresholdInClasses: 25
+
+style:
+  MagicNumber:
+    active: false
+  ReturnCount:
+    max: 4
+  MaxLineLength:
+    maxLineLength: 150
+  WildcardImport:
+    active: true
+  UnusedPrivateMember:
+    active: true
+  ForbiddenComment:
+    active: false
+
+naming:
+  FunctionNaming:
+    functionPattern: '([a-z][a-zA-Z0-9]*)|(`.*`)'
+  TopLevelPropertyNaming:
+    constantPattern: '[A-Z][A-Za-z0-9_]*'
+
+exceptions:
+  TooGenericExceptionCaught:
+    active: false
+  SwallowedException:
+    active: false
+
+formatting:
+  active: true
+  Indentation:
+    indentSize: 4
+  MaximumLineLength:
+    maxLineLength: 150
